@@ -5,7 +5,7 @@ class Rq(cmd: String) {
     private val paramMap = mutableMapOf<String, String>()
 
     init {
-        val cmdBits = cmd.split("?", limit = 2)
+        val cmdBits = cmd.split("?", limit = 2) //쪼개기
 
         action = cmdBits[0].trim()
 
