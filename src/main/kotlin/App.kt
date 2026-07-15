@@ -49,7 +49,7 @@ class App {
                 val wiseSaying = wiseSayings.firstOrNull { it.id == id }
 
                 if (wiseSaying == null) {
-                    println("해당 id의 명언은 존재하지 않습니다.")
+                    println("${id}번 명언은 존재하지 않습니다.")
                     continue
 
                 }
